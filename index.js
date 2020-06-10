@@ -39,7 +39,6 @@
         for (var i = 0 ; i  < cardGrid.length; i++) {
             fragmentGridElms.appendChild(createCard(cardGrid[i], 'gridBlock', cardColours[i]));
         }
-        colorSchemaInitialize = false;
         cardLayoutElm.appendChild(fragmentGridElms);
     }
     function createCard(cardNumber, className, gridColor) {
