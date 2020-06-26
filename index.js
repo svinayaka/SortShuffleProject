@@ -15,7 +15,7 @@
 
     var fragmentGridElms = createNewDOMFragment();
     var cardGrid = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
-    var colorGrid = ['#BFBFBF', '#6F98A8', '#2B8EAD', '#2F454E'];// 
+    var colorGrid = ['#BFBFBF', '#6F98A8', '#2B8EAD', '#2F454E'];
     var previousColor = '';
     var sortTypes = ['sort', 'shuffle'];
     var selectedSort = sortTypes[0];  
